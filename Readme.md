@@ -1,6 +1,6 @@
-# Module-4-AVAX-Advance-DeFi-Empire
+# AVAX-Proof
 
-# DeFi Empire: Setup Guide
+# Setup Guide
 
 ## Overview
 
@@ -42,7 +42,7 @@ avalanche --version
 ### Create a Subnet
 1. Creation
  ```sh
-avalanche subnet create <Name>
+avalanche subnet create prashantSubnet
  ```
 Select following options
 
@@ -54,11 +54,11 @@ Select following options
  ```
 2. Enter the Chain ID (AVAX)
  ```sh
-43114
+123
  ```
 3. Add token symbol
  ```sh
-SG
+PRNT
  ```
 Select follwoing option
  ```sh
@@ -69,7 +69,7 @@ Select follwoing option
 ### Deploy Subnet 
 
  ```sh
-avalanche subnet deploy hooman
+avalanche subnet deploy prashantSubnet
  ```
 Select 
  ```sh
@@ -99,7 +99,7 @@ deploy ERC20.sol file first
 ```
 
 ```sh
-Copy the deployemnt address
+Copy the deployemEnt address
 ```
 
 
